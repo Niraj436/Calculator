@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Alkatra', cursive;
+    box-sizing: border-box;
+}
+
+.cointainer{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+}
+.calculator{
+    background: rgb(38, 37, 37);
+    border-radius: 10px;
+    padding: 20px; 
+}
+.calculator button{
+    border:0;
+    outline: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    margin: 2px;
+}
+ 
+input{
+    width: 260px;
+    height: 50px;
+    text-align: right;
+    font-size: 25px;
+}
+
+#equal{
+    width: 130px;
+}
